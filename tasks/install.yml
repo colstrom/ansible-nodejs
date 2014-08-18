@@ -13,7 +13,7 @@
 
 - name: Trigger All Callbacks
   meta: flush_handlers
-  
+
 - name: Install Packages | apt
   apt:
     state: latest
