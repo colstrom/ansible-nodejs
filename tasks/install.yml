@@ -5,3 +5,10 @@
     pkg: "{{ item }}"
   with_items:
     - nodejs
+
+- name: Install Packages | npm
+  npm:
+    state: latest
+    name: "{{ item }}"
+    global: yes
+  with_items: node_packages
