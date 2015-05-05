@@ -1,5 +1,20 @@
 ---
 dependencies:
   - role: meta/repository
-    repository_key: '0xb9316a7bc7917b12'
-    repository_url: 'deb http://ppa.launchpad.net/chris-lea/node.js/ubuntu trusty main'
+    repository_key: "0xb9316a7bc7917b12"
+    repository_url: "deb http://ppa.launchpad.net/chris-lea/node.js/ubuntu {{ ansible_distribution_release }} main"
+galaxy_info:
+  author: "Chris Olstrom"
+  categories:
+    - development
+  company: "TELUS digital"
+  description: "Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications."
+  license: MIT
+  min_ansible_version: 1.2
+  platforms:
+    - name: Ubuntu
+      versions:
+        - lucid
+        - precise
+        - trusty
+        - utopic
