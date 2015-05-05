@@ -1,6 +1,6 @@
 # ansible-nodejs
 
-[Node.js](https://nodejs.org/) - the friendly interactive shell
+[Node.js](https://nodejs.org/) - Evented I/O for V8
 
 [![Platforms](http://img.shields.io/badge/platforms-ubuntu-lightgrey.svg?style=flat)](#)
 
