@@ -12,9 +12,15 @@ galaxy_info:
   license: MIT
   min_ansible_version: 1.2
   platforms:
+    - name: Debian
+      versions:
+        - wheezy
+        - jessie
+        - sid
     - name: Ubuntu
       versions:
         - lucid
         - precise
         - trusty
         - utopic
+        - vivid
