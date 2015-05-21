@@ -1,8 +1,8 @@
 ---
 dependencies:
   - role: meta/repository
-    repository_key: "0xb9316a7bc7917b12"
-    repository_url: "deb http://ppa.launchpad.net/chris-lea/node.js/ubuntu {{ ansible_distribution_release }} main"
+    repository_key: "0x1655a0ab68576280"
+    repository_url: "deb https://deb.nodesource.com/node_0.12 {{ ansible_distribution_release }} main"
 galaxy_info:
   author: "Chris Olstrom"
   categories:
