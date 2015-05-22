@@ -1,2 +1,5 @@
 ---
 - include: install.yml
+  tags:
+    - nodejs
+
