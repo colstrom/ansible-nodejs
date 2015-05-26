@@ -5,6 +5,9 @@
     pkg: "{{ item }}"
   with_items:
     - nodejs
+  tags:
+    - nodejs
+
 
 - name: Install Packages | npm
   npm:
@@ -13,3 +16,5 @@
     global: yes
   with_items: node_packages
   when: node_packages is iterable
+  tags:
+    - nodejs
