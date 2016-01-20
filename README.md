@@ -10,7 +10,8 @@ Node.js is a platform built on Chrome's JavaScript runtime for easily building f
 
 Tunables
 --------
-* ```node_packages``` (list) - Packages to install with npm
+* `node_packages` (list) - Packages to install with npm
+* `node_version` (string) - The node version to install. [0.5x, 0.4x, 0.12]
 
 Dependencies
 ------------
