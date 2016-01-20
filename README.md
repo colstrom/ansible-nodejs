@@ -2,6 +2,8 @@
 
 [Node.js](https://nodejs.org/) - Evented I/O for V8
 
+[![Build Status](https://travis-ci.org/telusdigital/ansible-nodejs.svg?branch=master)](https://travis-ci.org/telusdigital/ansible-nodejs)
+
 [![Platforms](http://img.shields.io/badge/platforms-ubuntu-lightgrey.svg?style=flat)](#)
 
 Description
