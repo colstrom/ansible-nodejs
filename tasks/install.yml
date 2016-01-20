@@ -5,6 +5,7 @@
     pkg: "{{ item }}"
   with_items:
     - nodejs
+    - build-essential
   tags:
     - nodejs
 
