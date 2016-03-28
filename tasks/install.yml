@@ -15,7 +15,7 @@
     state: latest
     name: "{{ item }}"
     global: yes
-  with_items: node_packages
+  with_items: "{{ node_packages }}"
   when: node_packages is iterable
   tags:
     - nodejs
